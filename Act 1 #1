@@ -1,0 +1,17 @@
+//Review Act 1. T55 #1
+#include <stdio.h>
+int main() 
+{
+    int num1,num2,add,mul,div,sub;
+    printf("Please enter any 2 integer:");
+    scanf("%d%d", &num1,&num2);
+    add=num1+num2;
+    printf("ADD = %d\n", add);
+    mul=num1*num2;
+    printf("MUL = %D\n", mul);
+    div=num1/num2;
+    printf("DIV = %D\n", div);
+    sub=num1-num2;
+    printf("SUB = %D\n", sub);
+    return 0;
+}
