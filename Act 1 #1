@@ -2,16 +2,16 @@
 #include <stdio.h>
 int main() 
 {
-    float num1,num2,add,mul,div,sub;
+    float num1,num2;
     printf("Please enter any 2 integer:");
     scanf("%f%f", &num1,&num2);
-    add=num1+num2;
-    printf("ADD = %.0f\n", add);
-    mul=num1*num2;
-    printf("MUL = %.0f\n", mul);
-    div=num1/num2;
-    printf("DIV = %.1f\n", div);
-    sub=num1-num2;
-    printf("SUB = %.0f\n", sub);
+    
+    printf("ADD = %.0f\n", num1+num2);
+    
+    printf("MUL = %.0f\n", num1*num2);
+    
+    printf("DIV = %.1f\n", num1/num2);
+    
+    printf("SUB = %.0f\n", num1-num2);
     return 0;
 }
